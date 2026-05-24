@@ -1,0 +1,53 @@
+# Arduino / ESP32
+*.hex
+*.elf
+*.bin
+*.map
+*.eep
+*.lss
+*.sym
+*.su
+*.d
+*.o
+*.a
+*.lst
+*.partitions.bin
+*.bootloader.bin
+build/
+.pio/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# Arduino IDE (sketch folder com mesmo nome do .ino)
+teste/
+
+# PlatformIO
+.pioenvs/
+.piolibdeps/
+platformio.ini.bak
+
+# Credenciais e config local
+secrets.h
+config.local.h
+*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
